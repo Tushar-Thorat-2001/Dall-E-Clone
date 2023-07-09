@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "nodemon index",
+    "data:destroy": "node Backend/index.js -d"
   },
   "keywords": [],
   "author": "",
